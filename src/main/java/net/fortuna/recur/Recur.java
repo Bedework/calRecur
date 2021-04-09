@@ -489,11 +489,7 @@ public class Recur implements Serializable {
             return Frequency.MONTHLY;
         }
 
-        if (frequency == Frequency.YEARLY) {
-            return Frequency.YEARLY;
-        }
-
-        return null;
+        return frequency;
     }
 
     /**
